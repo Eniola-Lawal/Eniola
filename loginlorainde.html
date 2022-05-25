@@ -1,0 +1,53 @@
+<html>
+<title> Log in</title>
+
+<body>
+    <style>
+     body, form{
+         background: linear-gradient(90deg, purple,darkmagenta, mediumorchid); 
+         color: white;
+        }
+        
+        input{
+            font: white;
+        background: linear-gradient(90deg, purple,darkmagenta);    
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom:  2px solid mediumorchid; 
+            box-shadow: 2px 1px mediumorchid;
+        }
+        .d1{
+            background: white;
+            border: 2px solid darkmagenta;
+            border-radius: 15px;
+            font-size: 17px;
+        }
+        
+    </style> 
+    <script type="text/javascript" lang="javascript">
+    function validateForm() {
+        let x= document.forms["myForm"]["Username"].value;
+        if (x==""){
+            alert("Username and email must be filled");
+            return false;
+        }
+        
+    }
+
+    </script>
+    <form name="myForm" action="lorinde.html" onsubmit="return validateForm()" method="post"><br><br><br><br><br><br><br>
+     <center><strong><h2>  Log in to your Account </h2></strong></center>
+    <center>
+ <p><input type ="text" Placeholder='Username' Required></p>
+ <p> <input type ="email" Placeholder='E-mail' Required></p>
+ <p> <input type ="password"   Placeholder='Password' Required></p>
+        <p> <input type="submit"   Value="Continue" class="d1" onclick="redirect();">
+        <input type="Reset"    Value= "Cancel" class="d1">
+</p>
+        </center>
+ 
+    </form>
+        </body></html>
