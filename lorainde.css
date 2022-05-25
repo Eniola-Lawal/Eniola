@@ -1,0 +1,116 @@
+#pa1{
+    background-color:mediumorchid;
+    height: 50px;
+    margin-top: 10;
+}
+p{
+    font: blue;
+    font-style: arial;
+    
+}
+button{
+    border-style: hidden;
+    background-color: mediumorchid;
+    font: white;
+}
+#pa2{
+    background-color: white;
+}
+#pa3{
+    background: linear-gradient(90deg, purple,darkmagenta, mediumorchid); 
+    height: 130px;
+}
+#pa4{
+    font-family: arial;
+    font-size: 40px;
+    color:white;
+}
+#pa5{
+    border-color: black;
+    background-color: white;
+     color:mediumorchid;
+    font-size: 10px;
+}
+aside{
+    float: right;
+}
+img{
+    height: 130px;
+}
+#pa6{
+
+    height:170px;
+    width:140px;
+    border-color: mediumorchid;
+    border: solid mediumorchid 3px;
+}
+#pa7{
+
+    height: 170px;
+    width:140px;
+    border-color: mediumorchid;
+    background-color: mediumorchid;
+     border: solid mediumorchid 3px;
+}
+#pa8{
+
+    height: 170px;
+    width: 140px;
+    border-color: mediumorchid
+        border-size:solid;
+    border: solid mediumorchid 3px;
+}
+.active{
+    background-color: darkmagenta;
+}
+
+ .a{
+    float: right;
+     flex-direction: row-reverse; 
+}
+ .a:hover{
+    background-color:darkmagenta;
+    display: inline-block;
+}
+
+.Ab{
+    display: inline-block;
+    color: mediumorchid;
+    font-size: 15px;
+}
+.me:hover{
+    background-color: aqua;
+    width:100px;
+    transform: scale(1.5);
+     
+}
+figure{
+    display: inline-block;
+}
+figcaption{
+    text-align: center;
+}
+.h2{
+width: 150px;
+height:150px;
+}
+ .h2:hover{
+    background-color: darkmagenta;
+    width:100px;
+    transform: scale(1.5);
+     box-shadow: 2px 2px mediumorchid;
+     
+}
+.h6{
+    float: left;
+}
+.b3{
+    float: right;
+    width:280;
+        height:400;
+}
+.b3:hover{
+    background-color: aqua;
+    width:150px;
+    transform: scale(3.5);
+}
